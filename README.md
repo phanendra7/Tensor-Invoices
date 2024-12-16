@@ -5,24 +5,40 @@
 - npm 
 - React (frontend)
 - Google OAuth credentials
+- MongoDB instance
 - Zapier account
 
-## Setup:
-Create an empty folder and clone these folders
+
+## Setup Instructions:
+
+### 1. Clone the repository:
+Create an empty folder and clone this repository
+Open terminal:
+git clone https://github.com/phanendra7/Tensor-Invoices.git
+
 
 ### Backend:
-1. Clone the repo and navigate to the `backend/` folder.
+1. cd backend
 2. Install dependencies: `npm install`.
 3. Set up `.env` file with your Google OAuth credentials, MongoDB credentials and zepiar webhook link.
-4. Run the backend: `node server.js`.
+4. 
+GOOGLE_CLIENT_ID=your-google-client-id
+GOOGLE_CLIENT_SECRET=your-google-client-secret
+GOOGLE_REDIRECT_URI=http://localhost:8080/auth/google/callback
+MONGO_URI=mongodb://your-mongodb-connection-string
+SESSION_SECRET=your-session-secret
+ZAPIER_WEBHOOK_URL=your-zapier-webhook-url
+
+5. Run the backend: `node server.js`.
+The backend will run on http://localhost:8080
 
 ### Frontend:
-1. Clone the repo and navigate to the `frontend/` folder.
+1. cd frontend
 2. Install dependencies: `npm install`.
-3. Set up `.env` file with the backend API URL.
-4. Run the frontend: `npm start`.
+3. Run the frontend: `npm start`.
+The frontend will run on http://localhost:3000
 
 ## Features:
-- User login with Google OAuth.
-- View due invoices.
-- Trigger Zapier-based invoice reminders and follow-ups.
+- Google OAuth Login: Users can log in with their Google account to access invoice data.
+- View Due Invoices: Once logged in, users can view their overdue invoices.
+- Zapier Integration: Users can trigger automation for invoice reminders and follow-ups via Zapier.
