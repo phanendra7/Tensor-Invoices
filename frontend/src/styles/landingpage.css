@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.landing-page {
+  text-align: center;
+  color: #333;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px;
+  background: linear-gradient(135deg, #007bff, #0056b3);
+  color: white;
+
+}
+
+.hero-content {
+  max-width: 50%;
+}
+
+.welcome-text {
+  font-size: 2.9rem;
+  margin: 0 0 20px;
+  transform: translateX(-100%);
+  animation: slideIn 1s forwards;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%); 
+  }
+  to {
+    transform: translateX(0); 
+  }
+}
+
+.slide-in {
+  animation: slideIn 0.5s ease-in-out; 
+}
+
+.hero-content p {
+  font-size: 1.25rem;
+  margin: 0 0 20px;
+}
+
+.google-login-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  color: rgb(10, 10, 10);
+  font-size: 1rem;
+  font-weight: bolder;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.google-login-btn:hover {
+  background-color: #b0cbf6;
+}
+
+.google-login-btn img.google-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.hero-image img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-right: 60px;
+}
+
+.features {
+  padding: 50px;
+  background-color: #f9f9f9;
+}
+
+.features h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.features-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.feature-item {
+  max-width: 300px;
+  text-align: left;
+}
+
+.feature-item h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.feature-item p {
+  font-size: 1rem;
+}
+
+.testimonials {
+  padding: 50px;
+}
+
+.testimonials h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.testimonial {
+  max-width: 500px;
+  margin: 0 auto;
+  font-style: italic;
+}
+
+.testimonial span {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+
+.footer {
+  background-color: #007bff;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
