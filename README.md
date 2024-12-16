@@ -21,7 +21,7 @@ git clone https://github.com/phanendra7/Tensor-Invoices.git
 1. cd backend
 2. Install dependencies: `npm install`.
 3. Set up `.env` file with your Google OAuth credentials, MongoDB credentials and zepiar webhook link.
-4. 
+
 GOOGLE_CLIENT_ID=your-google-client-id
 GOOGLE_CLIENT_SECRET=your-google-client-secret
 GOOGLE_REDIRECT_URI=http://localhost:8080/auth/google/callback
