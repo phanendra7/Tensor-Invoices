@@ -8,6 +8,8 @@
 - Zapier account
 
 ## Setup:
+Create an empty folder and clone these folders
+
 ### Backend:
 1. Clone the repo and navigate to the `backend/` folder.
 2. Install dependencies: `npm install`.
