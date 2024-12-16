@@ -22,12 +22,12 @@ git clone https://github.com/phanendra7/Tensor-Invoices.git
 2. Install dependencies: `npm install`.
 3. Set up `.env` file with your Google OAuth credentials, MongoDB credentials and zepiar webhook link.
 
-GOOGLE_CLIENT_ID=your-google-client-id
-GOOGLE_CLIENT_SECRET=your-google-client-secret
-GOOGLE_REDIRECT_URI=http://localhost:8080/auth/google/callback
-MONGO_URI=mongodb://your-mongodb-connection-string
-SESSION_SECRET=your-session-secret
-ZAPIER_WEBHOOK_URL=your-zapier-webhook-url
+GOOGLE_CLIENT_ID=your-google-client-id  
+GOOGLE_CLIENT_SECRET=your-google-client-secret  
+GOOGLE_REDIRECT_URI=http://localhost:8080/auth/google/callback  
+MONGO_URI=mongodb://your-mongodb-connection-string  
+SESSION_SECRET=your-session-secret  
+ZAPIER_WEBHOOK_URL=your-zapier-webhook-url  
 
 
 5. Run the backend: `node server.js`.
