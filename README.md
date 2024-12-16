@@ -1,4 +1,5 @@
 # Invoice Reminder & Follow-Up Automation
+![image](https://github.com/user-attachments/assets/b8a22197-d14f-4c9c-878a-c353498a0cdf)
 
 ## Requirements:
 - Node.js (backend)
