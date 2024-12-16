@@ -29,6 +29,7 @@ MONGO_URI=mongodb://your-mongodb-connection-string
 SESSION_SECRET=your-session-secret
 ZAPIER_WEBHOOK_URL=your-zapier-webhook-url
 
+
 5. Run the backend: `node server.js`.
 The backend will run on http://localhost:8080
 
